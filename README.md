@@ -1,26 +1,26 @@
 ![](https://res.cloudinary.com/dnfecsurp/image/upload/v1707366290/python-project-lhl/Screenshot_2024-02-07_at_11.24.19_PM_rcp2ow.png)
 
-# Statistical Modelling with Python - Project LHL
+# Statistical Modelling with Python
 
 ## Project Objectives
 
-The main objective of this project is to apply the Python and statistical modeling knowledge obtained during Course 2 of the Data Analytics Bootcamp. The goal is to construct a statistical model using Python that illustrates the relationship between the number of bikes in a specific location and the characteristics of the Points of Interest (POIs) in that location.
+The main objective of this project is to apply the Python and statistical modeling knowledge. The goal is to construct a statistical model using Python that illustrates the relationship between the number of bikes in a specific location and the characteristics of the Points of Interest (POIs) in that location.
 
 ## Process Overview
 
-[Part 01](https://github.com/nickolas-s/Statistical-Modelling-Project-LHL/blob/main/notebooks/city_bikes.ipynb)
+[Part 01]
 - Utilize the Citybikes API to fetch all available bike stations in a chosen city and generate a dataset.
 
-[Part 02](https://github.com/nickolas-s/Statistical-Modelling-Project-LHL/blob/main/notebooks/yelp_foursquare_EDA.ipynb)
+[Part 02]
 - Utilize the Foursquare API and Yelp API to acquire points of interest for each bike station within a 1000-meter radius and create two datasets from the obtained results.
 - Analyze the results from both APIs to determine which one provides more comprehensive information.
 
-[Part 03](https://github.com/nickolas-s/Statistical-Modelling-Project-LHL/blob/main/notebooks/joining_data.ipynb)
+[Part 03]
 - Merge the data from Citybikes with the data from either Foursquare or Yelp to create a new dataframe.
 - Employ data visualization techniques to explore the dataset.
 - Establish a SQLite database to store the data collected from the APIs.
 
-[Part 04](https://github.com/nickolas-s/Statistical-Modelling-Project-LHL/blob/main/notebooks/model_building.ipynb)
+[Part 04]
 - Develop a Multivariate Linear Regression model to showcase the relationship between the number of bikes in a particular location and the characteristics of the points of interest in that location.
 - Interpret the model results and extract insights.
 
@@ -44,11 +44,3 @@ Some key points from the model output include:
 - **coef**: The average POI price has the strongest positive impact on the number of bikes per station, while review_count has the largest negative impact.
 
 - **P>|t|**: All p-values are >0.05, indicating that the review_count, rating, and price attributes of a point of interest do not significantly affect the number of bikes in a bike station.
-
-## Challenges 
-
-Interpreting and deriving insights from the model proved challenging due to the lack of interconnectedness within the data.
-
-## Future Goals
-
-Given more time, further exploration of the Foursquare API would be a potential avenue for future research.
